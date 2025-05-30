@@ -179,7 +179,7 @@ async function experimentInit() {
   GoNogo_StartScreen_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'GoNogo_StartScreen_text',
-    text: '以下の内容を確認してください。\n\n\n青丸が出たら、スペースキーを押してください。\n赤丸が出たら、何も押さないでください。\n\nなるべく素早く、正確に反応してください。\nキーの操作は、利き手の人差し指で行ってください。\n\nスペースキーを押すと、課題が始まります。',
+    text: '以下の内容を確認してください。\n\n利き手人差し指をスペースキー上においてください。\n\n画面中央に「〇」が一瞬呈示されます。\n\n〇の色が、\n青のとき、スペースキーを押してください。\n赤のとき、何も押さないでください。\n\nなるべく素早く、正確に反応してください。\n課題は3分程度です。\n\nスペースキーを押すと、課題が始まります。',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
@@ -233,7 +233,7 @@ async function experimentInit() {
   Flanker_StartScreen_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'Flanker_StartScreen_text',
-    text: '以下の内容を確認してください。\n\n画面に5つの矢印が表示されます。\n中央の矢印の向きに従って、以下のキーを押してください。\n\n例（課題ではいづれか一つが呈示されます。）\n<<<<<：左（Fキー）\u3000>>>>>：右（Jキー）\n>><>>：左（Fキー）\u3000<<><<：右（Jキー）\n\nなるべく早く正確に反応してください。\nキーの操作は、それぞれ左右の人差し指で行ってください。\n\nFキーもしくはJキーを押すと、課題が始まります。',
+    text: '以下の内容を確認してください。\n\n左右の人差し指をそれぞれFキー、Jキー上においてください。\n\n画面中央に「5つの矢印」が一瞬呈示されます。\n真ん中の矢印の向きに従って、FキーもしくはJキーを押してください。\n\n例（課題ではいずれか一つが呈示されます。）\n<<<<<：左（Fキー）\u3000>>>>>：右（Jキー）\n>><>>：左（Fキー）\u3000<<><<：右（Jキー）\n\nなるべく早く正確に反応してください。\n課題は7分程度です。\n\nFキーもしくはJキーを押すと、課題が始まります。',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
@@ -283,7 +283,7 @@ async function experimentInit() {
   End_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'End_text',
-    text: '課題終了後、データファイルが自動でダウンロードされます。\n\n\nそのファイルをGoogleフォームに添付して送信してください。\n\n\n不具合や連絡事項があれば、フォーム内でご記入ください。\n\nスペースキーを押すと終了します。ご協力ありがとうございました。\n\n\n\n\nスペースキーを押すと終了します。',
+    text: '課題終了後、データファイルが自動でダウンロードされます。\nそのファイルをGoogleフォームに添付して送信してください。\n\n不具合や連絡事項があれば、フォーム内でご記入ください。\n\nスペースキーを押すと終了します。\nご協力ありがとうございました。',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
